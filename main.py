@@ -11,17 +11,17 @@ elif platform.system() == "Linux":
     print("Detected Linux")
 else:
     print("Unsupported OS! (MacOs Support Soon-ish TM)")
-    input()
+    n = int(input())
     exit()
 
 print("Marvefect's Rate Remover \nMade for o!Lazer players")
 
-print("Input Directory to take songs from: ")
+print("Input Directory to take songs from: \nExample: C:/Users/user/RateRemover/Input/")
 dir_in = str(input())
-print("Output Directory to put resulting songs in: ")
+print("Output Directory to put resulting songs in: \nExample: C:/Users/user/RateRemover/Output/")
 dir_out = str(input())
 file_list = [f for f in listdir(dir_in)]
-print("Found", len(file_list), "Files")
+print("Found", len(file_list), "Files, \nWorking...")
 
 for f in file_list:
     print(f)
@@ -42,3 +42,5 @@ for f in file_list:
     os.remove(f_dir)
     shutil.rmtree(f_out)
     os.rename(dir_out + f + ".zip", dir_out + f)
+print("Done")
+n = int(input()) 
