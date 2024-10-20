@@ -6,3 +6,7 @@ A simple script that removes all rates from given .osz files
 - Beautify Code
 - Optimise Code
 - Failsaves for different audio names
+
+# Possible Incompatibilities:
+- Downrate audio files, names of which are shorter, than original rate
+- Marathons
