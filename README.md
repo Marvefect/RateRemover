@@ -1,5 +1,5 @@
 # RateRemover
-A simple script that removes all rates from given .osz files
+A simple script that removes all rates from given .osz files / map folders (Experimental)
 
 # To do:
 - Add Error Exceptions
