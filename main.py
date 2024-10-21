@@ -16,9 +16,9 @@ else:
 
 print("Marvefect's Rate Remover \nMade for o!Lazer players")
 
-print("Input Directory to take songs from: \nExample: C:\Users\user\RateRemover\Input\")
+print("Input Directory to take songs from: \nExample: C:\\Users\\user\\RateRemover\\Input\\")
 dir_in = str(input())
-print("Output Directory to put resulting songs in: \nExample: C:\Users\user\RateRemover\Output\")
+print("Output Directory to put resulting songs in: \nExample: C:\\Users\\user\\RateRemover\\Output\\")
 dir_out = str(input())
 file_list = [f for f in listdir(dir_in)]
 print("Found", len(file_list), "Files, \nWorking...")
